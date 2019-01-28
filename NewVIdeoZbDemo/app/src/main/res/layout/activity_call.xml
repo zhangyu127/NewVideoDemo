@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CallActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="page 2"
+        android:textColor="#cccccc"
+        android:textSize="50sp"
+        android:textStyle="italic" />
+
+
+    <EditText
+        android:id="@+id/et_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="call account" />
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="CALL" />
+
+</LinearLayout>

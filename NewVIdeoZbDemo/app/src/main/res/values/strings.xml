@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewVIdeoZbDemo</string>
+    <string name="camera_permission_context">相机权限未开启，可能会影响您的体验。</string>
+    <string name="positive_button_live_level_limit">知道了</string>
+</resources>
